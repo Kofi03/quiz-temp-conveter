@@ -18,15 +18,7 @@ test("100° Celsius coverts to 212 Fahrenheit", () => {
 });
 
 test("50°Celsius coverts to 10 Celsius", () => {
-  const temp2Convert = 50;
-  const conversion = "toCelsius";
-
-  //Act
-  const result = tryConvert(temp2Convert, conversion);
-
-  //assert
-
-  expect(result).toBe("10");
+  expect(tryConvert(50, "toCelsius")).toBe("10");
 });
 
 test("bring back a blank string when given non-numerical input", () => {
