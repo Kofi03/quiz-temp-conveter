@@ -1,4 +1,10 @@
-# Quiz
+# Quiz Temperature converter QA Testing Example
+
+# User stories and Scenario Outline
+
+The 3 amigos user meeting is outlined in this instance specfic user stories and scenarios would be formulated.
+
+Gherkin ( given when and then when)
 
 ```gherkin
 Feature: Convert Temperatures
