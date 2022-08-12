@@ -4,9 +4,6 @@ import { tryConvert } from "./index.js";
 
 //Answer [Function: tryConvert]
 
-describe("tryConvert", () => ){
-  test("100° Celsius coverts to 212", () => {
-    expect(tryConvert(100)).toBe(212);
+test("100° Celsius coverts to 212", () => {
+  expect(tryConvert(100)).toBe(212);
 });
-
-
